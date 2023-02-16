@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(210, 195, 224);
+}
+h1 {
+  color: rgb(125, 64, 206);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+}
+
+
+img,a img{ 
+  border:0; 
+  margin:0; 
+  padding:0; 
+  max-width:1200px; 
+  width:expression(this.width>590?"590px":this.width); 
+  max-height:1200px;
+  height:expression(this.height>590?"590px":this.height); 
+  }
+  
